@@ -46,5 +46,6 @@ public class CountryController {
         this.countryRepository.delete(country);
         return country;
     }
-
+    //TODO: Za sekoe dodavanje brisenje, editiranje na kniga da se
+    // registrira toj event i event listenerot da ispecati vo konzola sto se napravilo
 }
